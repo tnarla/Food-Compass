@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Trushitha Narla. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "CompassViewController.h"
 
-@interface ViewController ()
+@interface CompassViewController ()
 
 @end
 
-@implementation ViewController
+@implementation CompassViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
