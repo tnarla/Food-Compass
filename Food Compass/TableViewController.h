@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TableViewController : UIViewController <UITextFieldDelegate, UISearchBarDelegate, UINavigationControllerDelegate> {
-    IBOutlet UISearchBar *searchBar;
+@interface TableViewController : UITableViewController <UITextFieldDelegate, UISearchBarDelegate, UINavigationControllerDelegate> {
+    IBOutlet UISearchBar *uiSearchBar;
 }
+@property (weak, nonatomic) IBOutlet UITextField *searchBar;
+
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 
 @end

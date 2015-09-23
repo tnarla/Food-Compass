@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		613E6CB21BADE1A30029CDA1 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 613E6CB11BADE1A30029CDA1 /* InterfaceController.m */; };
+		613E6CB51BADE1A30029CDA1 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 613E6CB41BADE1A30029CDA1 /* NotificationController.m */; };
+		613E6CB81BADE1A30029CDA1 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 613E6CB71BADE1A30029CDA1 /* GlanceController.m */; };
+		613E6CBA1BADE1A30029CDA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613E6CB91BADE1A30029CDA1 /* Images.xcassets */; };
+		613E6CBE1BADE1A30029CDA1 /* Food Compass WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 613E6CBD1BADE1A30029CDA1 /* Food Compass WatchKit App.app */; };
+		613E6CC61BADE1A30029CDA1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613E6CC41BADE1A30029CDA1 /* Interface.storyboard */; };
+		613E6CC81BADE1A30029CDA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613E6CC71BADE1A30029CDA1 /* Images.xcassets */; };
+		613E6CCB1BADE1A30029CDA1 /* Food Compass WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 613E6CAB1BADE1A30029CDA1 /* Food Compass WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		619706E61BA3A1AF00612962 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 619706E51BA3A1AF00612962 /* main.m */; };
 		619706E91BA3A1AF00612962 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 619706E81BA3A1AF00612962 /* AppDelegate.m */; };
 		619706EC1BA3A1AF00612962 /* CompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619706EB1BA3A1AF00612962 /* CompassViewController.m */; };
@@ -18,6 +26,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		613E6CBF1BADE1A30029CDA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 619706D81BA3A1AF00612962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 613E6CBC1BADE1A30029CDA1;
+			remoteInfo = "Food Compass WatchKit App";
+		};
+		613E6CC91BADE1A30029CDA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 619706D81BA3A1AF00612962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 613E6CAA1BADE1A30029CDA1;
+			remoteInfo = "Food Compass WatchKit Extension";
+		};
 		619706FA1BA3A1AF00612962 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 619706D81BA3A1AF00612962 /* Project object */;
@@ -27,7 +49,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		613E6CD21BADE1A30029CDA1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				613E6CCB1BADE1A30029CDA1 /* Food Compass WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		613E6CAB1BADE1A30029CDA1 /* Food Compass WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Food Compass WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		613E6CAE1BADE1A30029CDA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613E6CAF1BADE1A30029CDA1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		613E6CB01BADE1A30029CDA1 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		613E6CB11BADE1A30029CDA1 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		613E6CB31BADE1A30029CDA1 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		613E6CB41BADE1A30029CDA1 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		613E6CB61BADE1A30029CDA1 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		613E6CB71BADE1A30029CDA1 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		613E6CB91BADE1A30029CDA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		613E6CBD1BADE1A30029CDA1 /* Food Compass WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Compass WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		613E6CC31BADE1A30029CDA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613E6CC51BADE1A30029CDA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		613E6CC71BADE1A30029CDA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		619706E01BA3A1AF00612962 /* Food Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Compass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		619706E41BA3A1AF00612962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		619706E51BA3A1AF00612962 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,6 +96,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		613E6CA81BADE1A30029CDA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		619706DD1BA3A1AF00612962 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -63,11 +120,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		613E6CAC1BADE1A30029CDA1 /* Food Compass WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				613E6CB01BADE1A30029CDA1 /* InterfaceController.h */,
+				613E6CB11BADE1A30029CDA1 /* InterfaceController.m */,
+				613E6CB31BADE1A30029CDA1 /* NotificationController.h */,
+				613E6CB41BADE1A30029CDA1 /* NotificationController.m */,
+				613E6CB61BADE1A30029CDA1 /* GlanceController.h */,
+				613E6CB71BADE1A30029CDA1 /* GlanceController.m */,
+				613E6CB91BADE1A30029CDA1 /* Images.xcassets */,
+				613E6CAD1BADE1A30029CDA1 /* Supporting Files */,
+			);
+			path = "Food Compass WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		613E6CAD1BADE1A30029CDA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				613E6CAE1BADE1A30029CDA1 /* Info.plist */,
+				613E6CAF1BADE1A30029CDA1 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		613E6CC11BADE1A30029CDA1 /* Food Compass WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				613E6CC41BADE1A30029CDA1 /* Interface.storyboard */,
+				613E6CC71BADE1A30029CDA1 /* Images.xcassets */,
+				613E6CC21BADE1A30029CDA1 /* Supporting Files */,
+			);
+			path = "Food Compass WatchKit App";
+			sourceTree = "<group>";
+		};
+		613E6CC21BADE1A30029CDA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				613E6CC31BADE1A30029CDA1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		619706D71BA3A1AF00612962 = {
 			isa = PBXGroup;
 			children = (
 				619706E21BA3A1AF00612962 /* Food Compass */,
 				619706FC1BA3A1AF00612962 /* Food CompassTests */,
+				613E6CAC1BADE1A30029CDA1 /* Food Compass WatchKit Extension */,
+				613E6CC11BADE1A30029CDA1 /* Food Compass WatchKit App */,
 				619706E11BA3A1AF00612962 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +178,8 @@
 			children = (
 				619706E01BA3A1AF00612962 /* Food Compass.app */,
 				619706F91BA3A1AF00612962 /* Food CompassTests.xctest */,
+				613E6CAB1BADE1A30029CDA1 /* Food Compass WatchKit Extension.appex */,
+				613E6CBD1BADE1A30029CDA1 /* Food Compass WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +230,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		613E6CAA1BADE1A30029CDA1 /* Food Compass WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 613E6CD11BADE1A30029CDA1 /* Build configuration list for PBXNativeTarget "Food Compass WatchKit Extension" */;
+			buildPhases = (
+				613E6CA71BADE1A30029CDA1 /* Sources */,
+				613E6CA81BADE1A30029CDA1 /* Frameworks */,
+				613E6CA91BADE1A30029CDA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				613E6CC01BADE1A30029CDA1 /* PBXTargetDependency */,
+			);
+			name = "Food Compass WatchKit Extension";
+			productName = "Food Compass WatchKit Extension";
+			productReference = 613E6CAB1BADE1A30029CDA1 /* Food Compass WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		613E6CBC1BADE1A30029CDA1 /* Food Compass WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 613E6CD01BADE1A30029CDA1 /* Build configuration list for PBXNativeTarget "Food Compass WatchKit App" */;
+			buildPhases = (
+				613E6CBB1BADE1A30029CDA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Food Compass WatchKit App";
+			productName = "Food Compass WatchKit App";
+			productReference = 613E6CBD1BADE1A30029CDA1 /* Food Compass WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		619706DF1BA3A1AF00612962 /* Food Compass */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 619707031BA3A1AF00612962 /* Build configuration list for PBXNativeTarget "Food Compass" */;
@@ -134,10 +270,12 @@
 				619706DC1BA3A1AF00612962 /* Sources */,
 				619706DD1BA3A1AF00612962 /* Frameworks */,
 				619706DE1BA3A1AF00612962 /* Resources */,
+				613E6CD21BADE1A30029CDA1 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				613E6CCA1BADE1A30029CDA1 /* PBXTargetDependency */,
 			);
 			name = "Food Compass";
 			productName = "Food Compass";
@@ -171,6 +309,13 @@
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Trushitha Narla";
 				TargetAttributes = {
+					613E6CAA1BADE1A30029CDA1 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 2S3D8J8M3T;
+					};
+					613E6CBC1BADE1A30029CDA1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
 					619706DF1BA3A1AF00612962 = {
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = 2S3D8J8M3T;
@@ -196,11 +341,31 @@
 			targets = (
 				619706DF1BA3A1AF00612962 /* Food Compass */,
 				619706F81BA3A1AF00612962 /* Food CompassTests */,
+				613E6CAA1BADE1A30029CDA1 /* Food Compass WatchKit Extension */,
+				613E6CBC1BADE1A30029CDA1 /* Food Compass WatchKit App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		613E6CA91BADE1A30029CDA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613E6CBE1BADE1A30029CDA1 /* Food Compass WatchKit App.app in Resources */,
+				613E6CBA1BADE1A30029CDA1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613E6CBB1BADE1A30029CDA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613E6CC61BADE1A30029CDA1 /* Interface.storyboard in Resources */,
+				613E6CC81BADE1A30029CDA1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		619706DE1BA3A1AF00612962 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -221,6 +386,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		613E6CA71BADE1A30029CDA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613E6CB51BADE1A30029CDA1 /* NotificationController.m in Sources */,
+				613E6CB21BADE1A30029CDA1 /* InterfaceController.m in Sources */,
+				613E6CB81BADE1A30029CDA1 /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		619706DC1BA3A1AF00612962 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,6 +418,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		613E6CC01BADE1A30029CDA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 613E6CBC1BADE1A30029CDA1 /* Food Compass WatchKit App */;
+			targetProxy = 613E6CBF1BADE1A30029CDA1 /* PBXContainerItemProxy */;
+		};
+		613E6CCA1BADE1A30029CDA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 613E6CAA1BADE1A30029CDA1 /* Food Compass WatchKit Extension */;
+			targetProxy = 613E6CC91BADE1A30029CDA1 /* PBXContainerItemProxy */;
+		};
 		619706FB1BA3A1AF00612962 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 619706DF1BA3A1AF00612962 /* Food Compass */;
@@ -251,6 +436,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		613E6CC41BADE1A30029CDA1 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				613E6CC51BADE1A30029CDA1 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		619706ED1BA3A1AF00612962 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -270,6 +463,66 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		613E6CCC1BADE1A30029CDA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Food Compass WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		613E6CCD1BADE1A30029CDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Food Compass WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		613E6CCE1BADE1A30029CDA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Food_Compass_WatchKit_Extension;
+				INFOPLIST_FILE = "Food Compass WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		613E6CCF1BADE1A30029CDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Food_Compass_WatchKit_Extension;
+				INFOPLIST_FILE = "Food Compass WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 		619707011BA3A1AF00612962 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -413,6 +666,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		613E6CD01BADE1A30029CDA1 /* Build configuration list for PBXNativeTarget "Food Compass WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613E6CCE1BADE1A30029CDA1 /* Debug */,
+				613E6CCF1BADE1A30029CDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		613E6CD11BADE1A30029CDA1 /* Build configuration list for PBXNativeTarget "Food Compass WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613E6CCC1BADE1A30029CDA1 /* Debug */,
+				613E6CCD1BADE1A30029CDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		619706DB1BA3A1AF00612962 /* Build configuration list for PBXProject "Food Compass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -429,6 +698,7 @@
 				619707051BA3A1AF00612962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		619707061BA3A1AF00612962 /* Build configuration list for PBXNativeTarget "Food CompassTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +707,7 @@
 				619707081BA3A1AF00612962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

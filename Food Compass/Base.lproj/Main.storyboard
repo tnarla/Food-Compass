@@ -7,13 +7,13 @@
         <!--Root View Controller-->
         <scene sceneID="sbV-gi-gQl">
             <objects>
-                <tableViewController id="jeh-78-3cQ" sceneMemberID="viewController">
+                <tableViewController id="jeh-78-3cQ" customClass="TableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="0Rj-7o-TMf">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <textField key="tableHeaderView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Search for food" minimumFontSize="17" id="Fks-c8-PXv">
-                            <rect key="frame" x="0.0" y="64" width="600" height="60"/>
+                            <rect key="frame" x="0.0" y="64" width="600" height="50"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="search"/>
@@ -32,6 +32,10 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="qQ5-xM-Yyj"/>
+                    <connections>
+                        <outlet property="searchBar" destination="Fks-c8-PXv" id="0MA-I4-Ifx"/>
+                        <outlet property="tableView" destination="0Rj-7o-TMf" id="EmY-MQ-01i"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ysV-6l-18E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
