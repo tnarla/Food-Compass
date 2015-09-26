@@ -18,15 +18,11 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Search for food ..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HBq-Es-E4o">
-                                    <rect key="frame" x="70" y="8" width="255" height="46"/>
+                                    <rect key="frame" x="35" y="8" width="290" height="46"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <textInputTraits key="textInputTraits"/>
                                 </textField>
-                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Ba-jz-EUv">
-                                    <rect key="frame" x="51" y="8" width="19" height="46"/>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </view>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TRU-Mm-sDR">
                                     <rect key="frame" x="326" y="7" width="48" height="48"/>
                                     <state key="normal" title="Button" image="Arrow45"/>
@@ -34,6 +30,10 @@
                                         <action selector="searchNearest:" destination="jeh-78-3cQ" eventType="touchUpInside" id="I9N-ym-JBk"/>
                                     </connections>
                                 </button>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Ba-jz-EUv">
+                                    <rect key="frame" x="17" y="8" width="19" height="46"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
                             </subviews>
                             <color key="backgroundColor" red="0.82745098039215681" green="0.035294117647058823" blue="0.082352941176470587" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
