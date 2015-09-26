@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6111545A1BB43A5D0081B7FF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611154591BB43A5D0081B7FF /* CoreLocation.framework */; };
+		6111545C1BB43A640081B7FF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6111545B1BB43A640081B7FF /* AVFoundation.framework */; };
+		6111545E1BB43A6A0081B7FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6111545D1BB43A6A0081B7FF /* UIKit.framework */; };
+		611154611BB4481C0081B7FF /* WFLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 611154601BB4481C0081B7FF /* WFLocator.m */; settings = {ASSET_TAGS = (); }; };
 		613E6CB21BADE1A30029CDA1 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 613E6CB11BADE1A30029CDA1 /* InterfaceController.m */; };
 		613E6CB51BADE1A30029CDA1 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 613E6CB41BADE1A30029CDA1 /* NotificationController.m */; };
 		613E6CB81BADE1A30029CDA1 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 613E6CB71BADE1A30029CDA1 /* GlanceController.m */; };
@@ -22,7 +26,10 @@
 		619706F11BA3A1AF00612962 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619706F01BA3A1AF00612962 /* Images.xcassets */; };
 		619706F41BA3A1AF00612962 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 619706F21BA3A1AF00612962 /* LaunchScreen.xib */; };
 		619707001BA3A1AF00612962 /* Food_CompassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 619706FF1BA3A1AF00612962 /* Food_CompassTests.m */; };
-		6197070C1BA3AF8F00612962 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6197070B1BA3AF8F00612962 /* TableViewController.m */; };
+		61D6B8B81BB6A40800C8958F /* FoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D6B8B71BB6A40800C8958F /* FoodTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		61D6B8BB1BB6A58C00C8958F /* FoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D6B8BA1BB6A58C00C8958F /* FoodTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		61D6B8BD1BB6A8C200C8958F /* compass_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D6B8BC1BB6A8C200C8958F /* compass_arrow.png */; settings = {ASSET_TAGS = (); }; };
+		61D6B8BF1BB6A97000C8958F /* compass_arrow_45.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D6B8BE1BB6A97000C8958F /* compass_arrow_45.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +71,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		611154591BB43A5D0081B7FF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6111545B1BB43A640081B7FF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6111545D1BB43A6A0081B7FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		611154601BB4481C0081B7FF /* WFLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFLocator.m; sourceTree = "<group>"; };
+		611154621BB448380081B7FF /* WFLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFLocator.h; path = ../WFLocator.h; sourceTree = "<group>"; };
 		613E6CAB1BADE1A30029CDA1 /* Food Compass WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Food Compass WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		613E6CAE1BADE1A30029CDA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		613E6CAF1BADE1A30029CDA1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
@@ -91,8 +103,12 @@
 		619706F91BA3A1AF00612962 /* Food CompassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food CompassTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		619706FE1BA3A1AF00612962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		619706FF1BA3A1AF00612962 /* Food_CompassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food_CompassTests.m; sourceTree = "<group>"; };
-		6197070A1BA3AF8F00612962 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		6197070B1BA3AF8F00612962 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		61D6B8B61BB6A40800C8958F /* FoodTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewController.h; sourceTree = "<group>"; };
+		61D6B8B71BB6A40800C8958F /* FoodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewController.m; sourceTree = "<group>"; };
+		61D6B8B91BB6A58C00C8958F /* FoodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewCell.h; sourceTree = "<group>"; };
+		61D6B8BA1BB6A58C00C8958F /* FoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewCell.m; sourceTree = "<group>"; };
+		61D6B8BC1BB6A8C200C8958F /* compass_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = compass_arrow.png; path = ../../compass_arrow.png; sourceTree = "<group>"; };
+		61D6B8BE1BB6A97000C8958F /* compass_arrow_45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = compass_arrow_45.png; path = ../../compass_arrow_45.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +123,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6111545E1BB43A6A0081B7FF /* UIKit.framework in Frameworks */,
+				6111545C1BB43A640081B7FF /* AVFoundation.framework in Frameworks */,
+				6111545A1BB43A5D0081B7FF /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +139,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6111545F1BB43A750081B7FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6111545D1BB43A6A0081B7FF /* UIKit.framework */,
+				6111545B1BB43A640081B7FF /* AVFoundation.framework */,
+				611154591BB43A5D0081B7FF /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		613E6CAC1BADE1A30029CDA1 /* Food Compass WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,11 +222,18 @@
 				619706EA1BA3A1AF00612962 /* CompassViewController.h */,
 				619706EB1BA3A1AF00612962 /* CompassViewController.m */,
 				619706ED1BA3A1AF00612962 /* Main.storyboard */,
+				61D6B8B61BB6A40800C8958F /* FoodTableViewController.h */,
+				61D6B8B71BB6A40800C8958F /* FoodTableViewController.m */,
+				61D6B8B91BB6A58C00C8958F /* FoodTableViewCell.h */,
+				61D6B8BA1BB6A58C00C8958F /* FoodTableViewCell.m */,
 				619706F21BA3A1AF00612962 /* LaunchScreen.xib */,
-				6197070A1BA3AF8F00612962 /* TableViewController.h */,
-				6197070B1BA3AF8F00612962 /* TableViewController.m */,
+				611154621BB448380081B7FF /* WFLocator.h */,
+				611154601BB4481C0081B7FF /* WFLocator.m */,
 				619706F01BA3A1AF00612962 /* Images.xcassets */,
+				61D6B8BE1BB6A97000C8958F /* compass_arrow_45.png */,
+				61D6B8BC1BB6A8C200C8958F /* compass_arrow.png */,
 				619706E31BA3A1AF00612962 /* Supporting Files */,
+				6111545F1BB43A750081B7FF /* Frameworks */,
 			);
 			path = "Food Compass";
 			sourceTree = "<group>";
@@ -318,7 +355,7 @@
 					};
 					619706DF1BA3A1AF00612962 = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = 2S3D8J8M3T;
+						DevelopmentTeam = LKV33296P9;
 					};
 					619706F81BA3A1AF00612962 = {
 						CreatedOnToolsVersion = 6.4;
@@ -370,8 +407,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61D6B8BD1BB6A8C200C8958F /* compass_arrow.png in Resources */,
 				619706EF1BA3A1AF00612962 /* Main.storyboard in Resources */,
 				619706F41BA3A1AF00612962 /* LaunchScreen.xib in Resources */,
+				61D6B8BF1BB6A97000C8958F /* compass_arrow_45.png in Resources */,
 				619706F11BA3A1AF00612962 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,8 +440,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				619706EC1BA3A1AF00612962 /* CompassViewController.m in Sources */,
-				6197070C1BA3AF8F00612962 /* TableViewController.m in Sources */,
+				61D6B8BB1BB6A58C00C8958F /* FoodTableViewCell.m in Sources */,
 				619706E91BA3A1AF00612962 /* AppDelegate.m in Sources */,
+				61D6B8B81BB6A40800C8958F /* FoodTableViewController.m in Sources */,
+				611154611BB4481C0081B7FF /* WFLocator.m in Sources */,
 				619706E61BA3A1AF00612962 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -673,6 +714,7 @@
 				613E6CCF1BADE1A30029CDA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		613E6CD11BADE1A30029CDA1 /* Build configuration list for PBXNativeTarget "Food Compass WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -681,6 +723,7 @@
 				613E6CCD1BADE1A30029CDA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		619706DB1BA3A1AF00612962 /* Build configuration list for PBXProject "Food Compass" */ = {
 			isa = XCConfigurationList;
