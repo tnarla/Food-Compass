@@ -10,12 +10,9 @@
             <objects>
                 <controller hidesWhenLoading="NO" id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
-                        <imageView alignment="center" verticalAlignment="center" image="Arrow" id="j6q-kP-WfM"/>
+                        <imageView alignment="left" image="Arrow-Watch" id="u0P-tV-rOd"/>
                     </items>
                     <color key="backgroundColor" red="0.82745098039999998" green="0.035294117649999998" blue="0.08235294118" alpha="1" colorSpace="calibratedRGB"/>
-                    <connections>
-                        <outlet property="arrow" destination="j6q-kP-WfM" id="sQm-PO-IEy"/>
-                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="235" y="347"/>
